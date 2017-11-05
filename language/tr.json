@@ -1,37 +1,37 @@
 {
   "semantics":[
     {
-      "label":"Interactive Video Editor",
+      "label":"Etkileşimli Video Düzenleyici",
       "fields":[
         {
-          "label":"Upload/embed video",
+          "label":"Yükle/gömülü video",
           "fields":[
             {
-              "label":"Add a video",
-              "description":"Click below to add a video you wish to use in your interactive video. You can add a video link or upload video files. It is possible to add several versions of the video with different qualities. To ensure maximum support in browsers at least add a version in webm and mp4 formats."
+              "label":"Bir video ekle",
+              "description":"Etkileşimli videonda kullanmak istediğin bir video eklemek için aşağıya tıkla. Bir video bağlantısı ekleyebilir ya da video dosyaları yükleyebilirsin. Videonun farklı kalitedeki çeşitli versiyonlarını eklemek mümkün. En azından maksimum tarayıcı desteğinden emin olmak için webm ve mp4 formatlarında bir versiyon ekleyin."
             },
             {
-              "label":"Start screen options (unsupported for YouTube videos)",
+              "label":"Giriş ekranı seçenekleri( Youtube videoları desteklenmiyor)",
               "fields":[
                 {
-                  "label":"The title of this interactive video",
+                  "label":"Etkileşimli videonun başlığı",
                   "default":"Interactive Video",
                   "description":"Used in summaries, statistics etc."
                 },
                 {
-                  "label":"Hide title on video start screen"
+                  "label":"Videoya giriş sahnesinde başlığı gizle"
                 },
                 {
-                  "label":"Short description (Optional)",
-                  "description":"Optional. Display a short description text on the video start screen. Does not work for YouTube videos."
+                  "label":"Kısa açıklama (İsteğe bağlı)",
+                  "description":"İsteğe bağlı. Videoya giriş sahnesinde kısa bir açıklama göster. YouTube videolarında çalışmaz."
                 },
                 {
-                  "label":"Poster image",
-                  "description":"Image displayed before the user launches the video. Does not work for YouTube Videos."
+                  "label":"Poster resim",
+                  "description":"Kullanıcı videoyu açmadan önce gösterilecek resim. YouTube videolarında çalışmaz."
                 },
                 {
-                  "label":"Video copyright information",
-                  "description":"Information regarding copyright of the video and elements used in the video."
+                  "label":"Video telif hakları bilgisi",
+                  "description":" Video ve videoda kullanılan öğelerle ilgili telif hakkı bilgisi."
                 }
               ]
             },
